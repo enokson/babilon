@@ -6,7 +6,7 @@ const auth = lib.pipeAsyncFunctions(
     lib.validateMsgObj,
     // GET /auth/login
     async (msg) => {
-        msg.res = await axios.get('http://i.babilon-t.tj/auth/login')
+        msg.res = await axios.get('http://i.babilon-t.com/auth/login')
         return msg
     },
     // save cookies
