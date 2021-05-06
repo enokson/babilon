@@ -20,10 +20,10 @@ const auth = lib.pipeAsyncFunctions(
     // POST /auth/login
     async msg => {
         const headers = lib.buildRequestHeaders({
-            "Referer": "http://i.babilon-t.tj/auth/login"
+            "Referer": "http://i.babilon-t.com/auth/login"
         })
         const options = lib.buildPostRequestOptions({
-            url: 'http://i.babilon-t.tj/auth/login',
+            url: 'http://i.babilon-t.com/auth/login',
             headers,
             data: querystring.stringify({
                 login: 'lte_992446901694',
